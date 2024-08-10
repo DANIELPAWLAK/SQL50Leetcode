@@ -1,1 +1,1 @@
-select Product.product_name, Sales.year, Sales.price from Sales natural left join Product
+select product_name, year, price from Sales join Product on Sales.product_id = Product.product_id;
