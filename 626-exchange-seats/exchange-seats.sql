@@ -8,4 +8,4 @@ select
     end as id,
     student
 from seat
-order by id;
+order by id
