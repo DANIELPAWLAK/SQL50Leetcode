@@ -1,1 +1,1 @@
-select user_id, count(follower_id) as followers_count from Followers group by 1 order by 1 asc
+select user_id, count(follower_id) as followers_count from Followers group by user_id order by user_id asc
